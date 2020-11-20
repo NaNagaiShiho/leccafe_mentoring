@@ -1,0 +1,85 @@
+<template>
+  <section class="c-company">
+      <div class="c-company__container">
+       <div class="c-company__title">
+        運営
+          <p class="c-company__text">Company</p>
+      </div> 
+      <div class="c-company__icon">
+        <img class="c-company__logo"
+          src="@/assets/image/chatbox-logo@2x.png"
+          alt="chatboxロゴ">
+        </div>
+        <div class="c-company__box">
+        <div class="c-company__company">
+          株式会社Chatbox
+        </div>
+        <div class="c-company__text1">
+          Lec Café は Web 制作の各種技術をテーマに、セミナーイベントを展開するIT 系の学習支援コミュニティです。新しいWebの制作技術習得を目指す人たちのニーズに答える様々なイベントを開催しています。
+        </div>
+      </div>
+      </div>
+ </section>
+</template>
+
+<script>
+  export default {
+  }
+</script>
+
+<style lang="scss" scoped>
+@import "~assets/scss/mixins.scss";
+.c-company {
+  background: #F7F7F7;
+
+  &__container {
+    @include mobile {
+    padding:40px 4% 60px;
+    }
+  }
+&__title {
+    font-size: 24px;
+    text-align: center;
+    color:#505050;
+    font-weight: bold;
+    letter-spacing: 2.4px;
+
+    @include mobile {
+    }
+  }
+
+  &__text {
+    font-size: 16px;
+    color: #C2504F;
+    font-family:Alternate Gothic ATF;
+    font-weight: normal;
+    letter-spacing: 0.64px;
+
+    @include mobile {
+    }
+  }
+
+  &__icon {
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  &__company {
+    color: #D39A99;
+
+    @include mobile {
+      font-size: 16px;
+      padding-bottom: 20px;
+    }
+  }
+
+  &__text1 {
+      @include mobile {
+        font-size: 12px;
+        letter-spacing: 0.96px;
+        line-height: 24px;
+      }
+    }
+  }
+
+</style>

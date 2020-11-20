@@ -1,0 +1,150 @@
+<template>
+  <section class="c-hero">
+     <div class="c-hero__box0">
+      <div class="c-hero__container">
+          <div class="c-hero__title">
+            LecCafeのメンタリングプログラムは<br>
+            短期的に、実戦形式の制作フローを<br>
+            学べるWeb制作講座です。
+          </div>
+      </div>
+      <div class="c-hero__sec1">
+        <div class="c-hero__box">
+          <img class="c-hero__hukidashi"
+          src="@/assets/image/hukidashi@2x.png"
+          alt="吹き出し">
+      </div>
+      <div class="c-hero__box2">
+        <div class="c-hero__q">
+          こんなお悩みありませんか…?
+        </div>
+        <div class="c-hero__list">
+    <li class="c-hero__li">何から勉強したらいいのかわからない</li>
+    <li class="c-hero__li">エラーがどうしても解決できずに挫折してしまいそう</li>
+    <li class="c-hero__li">プログラミングがどのように実際のサービスに活用されるのかが分からない…</li>
+    <li class="c-hero__li">プログラミングがどのように実際のサービスに活用されるのかが分からない…</li>
+</div>
+      </div>
+      </div>
+      <div class="c-hero__box3">
+    <img class="c-hero__icon"
+          src="@/assets/image/icon_man@2x.png"
+          alt="人">
+      </div>
+     </div>
+  </section>
+</template>
+
+<script>
+  export default {
+  }
+</script>
+
+<style lang="scss" scoped>
+@import "~assets/scss/mixins.scss";
+
+ .c-hero {
+   margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    background: #F7F7F7;
+
+    &__box0 {
+      height: 100%;
+    }
+
+   &__title {
+     display: none;
+
+     @include mobile {
+      display: block;
+     font-size: 14px;
+     line-height: 24px;
+     padding: 40px 53px 60px 54px;
+     font: bold;
+     }
+   }
+
+  &__title::first-letter {
+    color:#C2504F;
+    font-size:20px;
+  }
+
+  &__sec1 {
+    display: inline-flex;
+  }
+
+  &__box {
+    padding-right: 36px;
+    text-align: left;
+  }
+
+  &__hukidashi {
+    width: 100%;
+    opacity: 0.9;
+    position: relative;
+  }
+
+  &__box2 {
+    position: absolute;
+    padding: 35px 0 0 45px;
+
+    @include mobile {
+    padding-top: 26px;
+    padding-left: 20px;
+    padding-right: 44px;
+    }
+  }
+
+  &__q {
+    font-size: 35px;
+    left: 0;
+    color: #fff;
+    padding-bottom: 30px;
+    font-weight: bold;
+    text-align: left;
+
+    @include mobile {
+      font-size: 16px;
+      padding-bottom: 23px;
+    }
+  }
+
+  &__list {
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+
+    @include mobile {
+      font-size: 12px;
+      line-height: 1.5;
+    }
+  }
+
+  &__box3 {
+    max-width: 100%;
+     position: relative;
+     text-align: right;
+
+     @include mobile {
+       padding-right: 10px;
+     }
+  }
+
+  &__icon {
+    width: 25%;
+ }
+
+ &__li {
+   padding: 7px 0;
+
+   @include mobile {
+     padding: 4px 0;
+   }
+ }
+
+ }
+
+</style>
