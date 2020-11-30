@@ -52,7 +52,7 @@
       </div>
       <div class="c-flow__border1"></div>
       <div class="c-flow__box">
-        <div class="c-flow__flow" >
+        <div class="c-flow__flow2" >
           <div class="c-flow__top">
               <div class="c-flow__icon">
                 <img class="c-flow__meeting"
@@ -128,6 +128,15 @@
 
     @include mobile {
       padding: 0 20px;
+      margin-bottom: 60px;
+    }
+  }
+
+  &__flow2 {
+    position: relative;
+
+    @include mobile {
+      padding: 0 20px;
     }
   }
 
@@ -187,6 +196,8 @@
   }
 
   &__text1 {
+    position: relative;
+     z-index: 9999;
     font-size: 16px;
     max-width: 794px;
     margin: 0 0 0 auto;
@@ -215,7 +226,7 @@
     content: "";
       width: 8px;
       height: 100%;
-      background: #CC706F;
+      background: #CE7271;
       margin-left: 3.8em;
 
       @include mobile {

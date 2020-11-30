@@ -104,7 +104,6 @@
   &__box {
     padding-right: 36px;
     text-align: left;
-
   }
 
   &__hukidashi {
@@ -184,7 +183,6 @@
 &__box4 {
      text-align: right;
     
-
      @include mobile {
        display: none;
      }
@@ -193,6 +191,7 @@
   &__icon {
     @include mobile {
       width: 25%;
+      min-width: 80px;
     }
  }
 

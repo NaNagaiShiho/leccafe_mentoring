@@ -193,7 +193,7 @@
 
       @include mobile {
         width: 100%;
-        margin: 10px 0 30px;
+        margin: 10px auto 30px;
       }
   }
 
