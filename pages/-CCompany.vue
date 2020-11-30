@@ -33,51 +33,75 @@
   background: #F7F7F7;
 
   &__container {
+    padding: 120px 0 150px;
     @include mobile {
     padding:40px 4% 60px;
     }
   }
 &__title {
-    font-size: 24px;
+     padding-bottom: 10px;
+    font-size: 30px;
     text-align: center;
     color:#505050;
     font-weight: bold;
-    letter-spacing: 2.4px;
+    letter-spacing: 0.1em;
 
     @include mobile {
+      padding-bottom: 0;
+      font-size: 24px;
+      letter-spacing: 2.4px;
     }
   }
 
   &__text {
-    font-size: 16px;
+    font-size: 25px;
     color: #C2504F;
     font-family:Alternate Gothic ATF;
     font-weight: normal;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
 
     @include mobile {
+      font-size: 16px;
+      letter-spacing: 0.64px;
     }
   }
 
   &__icon {
+    text-align: center;
     margin: 0 auto;
-    width: 50%;
+    @include mobile {
+    }
+  }
+
+  &__logo {
+    width: 334px;
+
+    @include mobile {
+    width: 200px;
+  }
   }
 
   &__company {
     color: #D39A99;
+    font-size: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 
     @include mobile {
       font-size: 16px;
-      padding-bottom: 20px;
+      text-align: leftx;
     }
   }
 
   &__text1 {
+    font-size: 14px;
+    max-width: 500px;
+    letter-spacing: 0.96px;
+    line-height: 24px;
+    margin: 0 auto;
+
       @include mobile {
         font-size: 12px;
-        letter-spacing: 0.96px;
-        line-height: 24px;
       }
     }
   }

@@ -12,22 +12,17 @@
           src="@/assets/image/ball@2x.png"
           alt="赤丸">
         </div>
-        <div class="c-price__target">
-          学生の方
-        </div>
         <div class="c-price__price">
           <span class="c-price__yen">￥</span><span class="c-price__1">5,000</span>/講座
         </div>
       </div>
        <div class="c-price__box1">
-        <div class="c-price__icon">
+        <div class="c-price__icon2">
           <img class="c-price__ball"
           src="@/assets/image/ball@2x.png"
           alt="赤丸">
         </div>
-        <div class="c-price__target">
-          一般の方
-        </div>
+
         <div class="c-price__price">
           <span class="c-price__yen">￥</span><span class="c-price__1">10,000</span>/講座
         </div>
@@ -52,29 +47,34 @@
   font-family: YuGothic, "Yu Gothic", sans-serif;
 
   &__container {
+    padding: 120px 0 170px;
     @include mobile {
-    padding:40px 4% 60px;
+    padding:40px 20px 60px;
     }
   }
 &__title {
-    font-size: 24px;
+    font-size: 30px;
+    padding-bottom: 15px;
     text-align: center;
     color:#505050;
     font-weight: bolder; 
     letter-spacing: 2.4px;
 
     @include mobile {
+      font-size: 24px;
+      padding-bottom: 12px;
     }
   }
 
   &__text {
-    font-size: 16px;
+    font-size: 25px;
     color: #C2504F;
     font-weight: normal;
     letter-spacing: 0.64px;
     font-family:Alternate Gothic ATF;
 
     @include mobile {
+      font-size: 16px;
     }
   }
 
@@ -82,64 +82,143 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 50%;
 
     @include mobile {
-      padding: 40px 33px 5px 34px;
+      width: 100%;
+      max-width: 268px;
+      padding: 40px 0 5px 0;
+      margin: 0 auto;
     }
   }
 
   &__icon {
+      width: 59px;
+  }
+
+  &__icon::before {
+    position: absolute;
+    content: "学生の方";
+    text-align: center;
+    font-size: 20px;
+    color: #505050;
+    font-weight: bolder;
+    padding-left: 2em;
+    padding-top: 0.7em;
+
     @include mobile {
-      width: 25%;
+      position: absolute;
+      font-size: 16px;
+      padding-left: 1.5em;
+      padding-top: 1em;
     }
   }
 
-  &__target {
+  &__icon2 {
+      width: 59px;
+  }
+
+  &__icon2::before {
     position: absolute;
-    left: 90px;
-    font-size: 16px;
+    content: "一般の方";
+    text-align: center;
+    font-size: 20px;
     color: #505050;
     font-weight: bolder;
+    padding-left: 2em;
+    padding-top: 0.7em;
+
+     @include mobile {
+      position: absolute;
+      font-size: 16px;
+      padding-left: 1.5em;
+      padding-top: 1em;
+    }
+
   }
+
+
+  &__target {
+    padding: relative;
+    text-align: center;
+
+    @include mobile {
+      position: absolute;
+      font-size: 16px;
+      left: 90px;
+    }
+  }
+
 
    &__price {
      padding-top: 12px;
+     font-size: 25px;
      justify-content: flex-end;
-     margin:0 0 0 auto;
      color: #C2504F;
+
+     @include mobile {
+       font-size: 16px;
+       padding-top: 12px;
+     }
    }
 
    &__box1 {
      display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 50%;
     
     @include mobile {
-    padding: 5px 33px 30px 34px;
+      width: 100%;
+    padding: 5px 0 30px 0;
+      max-width: 279px;
+      margin: 0 auto;
      }
    }
 
    &__text1 {
+     font-size: 16px;
+     width: 600px;
+     margin: 0 auto;
+     letter-spacing: 0.08px;
+       line-height: 24px;
+
      @include mobile {
        font-size: 12px;
        padding: 0 10px;
        letter-spacing: 0.96px;
-       line-height: 24px;
+       width: 100%;
      }
    }
 
    &__1 {
+     font-size: 60px;
+    font-family: Alternate Gothic ATF;
      @include mobile {
        font-size: 46px;
-       font-family: Alternate Gothic ATF;
    }
 }
 
 &__yen {
+  font-size: 40px;
+  font-family: Alternate Gothic ATF;
   @include mobile {
        font-size: 30px;
-       font-family: Alternate Gothic ATF;
 }
+}
+
+&__box0 {
+  display: flex;
+	justify-content: space-between;
+  width: 807px;
+  margin: 0 auto;
+  padding: 60px 0 85px;
+
+  @include mobile {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
 }
 
 }

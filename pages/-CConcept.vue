@@ -78,10 +78,23 @@
 
 .c-concept {
   width: 100%;
+  height: 100%;
   text-align: center;
   font-family: YuGothic, "Yu Gothic", sans-serif;
-  padding: 40px 20px;
+  padding: 110px 0 130px;
   background: #FBFBFB;
+  @include mobile {
+    padding: 40px 20px;
+  }
+
+   &__container {
+       max-width: 994px;
+       margin: 0 auto ;
+
+       @include mobile {
+         max-width: 100%;
+       }
+     }
 
   &__title {
     font-size: 22px;
@@ -94,7 +107,7 @@
   }
 
   &__box {
-    padding: 60px 80px;
+    padding: 60px;
     display: flex;
 	  justify-content: space-between;
     width: 100%;
@@ -162,23 +175,38 @@
 
   &__title2 {
     color: #fff;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bolder; 
     letter-spacing: 0.1em;
+
+    @include mobile {
+      font-size: 16px;
+    }
   }
 
   &__border {
       width: 100%;
+      max-width: 298px;
       height: 2px;
       background: #fff;
-      margin: 10px 0 30px;
+      margin: 10px auto 30px;
+
+      @include mobile {
+        width: 100%;
+        margin: 10px 0 30px;
+      }
   }
 
   &__text2 {
-    font-size: 12px;
+    font-size: 14px;
     color: #fff;
     line-height: 24px;
     letter-spacing: 0.08em;
+    text-align: left;
+
+    @include mobile {
+      font-size: 12px;
+    }
   }
     }
 </style>

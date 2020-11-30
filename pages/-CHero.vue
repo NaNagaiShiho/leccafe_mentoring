@@ -13,6 +13,9 @@
           <img class="c-hero__hukidashi"
           src="@/assets/image/hukidashi@2x.png"
           alt="吹き出し">
+          <img class="c-hero__hukidashi_pc"
+          src="@/assets/image/hukidasi_pc@2x.png"
+          alt="吹き出し">
       </div>
       <div class="c-hero__box2">
         <div class="c-hero__q">
@@ -21,8 +24,8 @@
         <div class="c-hero__list">
     <li class="c-hero__li">何から勉強したらいいのかわからない</li>
     <li class="c-hero__li">エラーがどうしても解決できずに挫折してしまいそう</li>
-    <li class="c-hero__li">プログラミングがどのように実際のサービスに活用されるのかが分からない…</li>
-    <li class="c-hero__li">プログラミングがどのように実際のサービスに活用されるのかが分からない…</li>
+    <li class="c-hero__li">プログラミングがどのように実際のサービスに<br>活用されるのかが分からない…</li>
+    <li class="c-hero__li">プログラミングがどのように実際のサービスに<br>活用されるのかが分からない…</li>
 </div>
       </div>
       </div>
@@ -31,6 +34,9 @@
           src="@/assets/image/icon_man@2x.png"
           alt="人">
       </div>
+          <img class="c-hero__icon_pc"
+          src="@/assets/image/man@2x.png"
+          alt="人">
      </div>
   </section>
 </template>
@@ -53,6 +59,19 @@
 
     &__box0 {
       height: 100%;
+      max-width: 994px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      padding: 130PX 0;
+
+      @include mobile {
+        max-width: 100%;
+        margin-left: 0;
+        display: block;
+        padding: 0;
+      }
+      
     }
 
    &__title {
@@ -74,17 +93,42 @@
 
   &__sec1 {
     display: inline-flex;
+
+    @include mobile {
+      margin-left: 0;
+      text-align: left;
+       display: flex;
+    }
   }
 
   &__box {
     padding-right: 36px;
     text-align: left;
+
   }
 
   &__hukidashi {
+    display: none;
+
+    @include mobile {
+      display: block;
     width: 100%;
+    min-height: 339px;
+    max-width: 339px;
     opacity: 0.9;
     position: relative;
+    }
+  }
+
+  &__hukidashi_pc {
+    display: block;
+    position: relative;
+    width: 627px;
+    height: 292px;
+
+    @include mobile {
+      display: none;
+    }
   }
 
   &__box2 {
@@ -92,17 +136,16 @@
     padding: 35px 0 0 45px;
 
     @include mobile {
-    padding-top: 26px;
     padding-left: 20px;
     padding-right: 44px;
     }
   }
 
   &__q {
-    font-size: 35px;
+    font-size: 25px;
     left: 0;
     color: #fff;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     font-weight: bold;
     text-align: left;
 
@@ -116,10 +159,11 @@
     font-size: 16px;
     color: #fff;
     text-align: left;
+    line-height: 1.4;
 
     @include mobile {
       font-size: 12px;
-      line-height: 1.5;
+      line-height: 150%;
     }
   }
 
@@ -127,14 +171,38 @@
     max-width: 100%;
      position: relative;
      text-align: right;
+     display: none;
+    
 
      @include mobile {
+        display: flex;
+      justify-content: flex-end;
        padding-right: 10px;
      }
   }
 
+&__box4 {
+     text-align: right;
+    
+
+     @include mobile {
+       display: none;
+     }
+  }
+
   &__icon {
+    @include mobile {
+      width: 25%;
+    }
+ }
+
+ &__icon_pc {
     width: 25%;
+    text-align: right;
+    
+    @include mobile {
+      display: none;
+    }
  }
 
  &__li {

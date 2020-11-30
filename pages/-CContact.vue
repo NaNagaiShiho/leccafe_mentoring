@@ -12,6 +12,7 @@
         <div class="c-contact__box1">
           <a class="c-contact__button" href="~">
             お問い合わせ
+            <i class="material-icons">arrow_forward_ios</i>
           </a>
         </div>
       </div>
@@ -30,29 +31,34 @@
   background: #fff;
 
   &__container {
+    padding: 120px 0 200px;
     @include mobile {
     padding:40px 4% 60px;
     }
   }
 &__title {
-    font-size: 24px;
+    font-size: 30px;
     text-align: center;
     color:#505050;
     font-weight: bold;
-    letter-spacing: 2.4px;
+    letter-spacing: 0.1em;
 
     @include mobile {
+      font-size: 24px;
+      letter-spacing: 2.4px;
     }
   }
 
   &__text {
-    font-size: 16px;
+    font-size: 25px;
     color: #C2504F;
     font-family:Alternate Gothic ATF;
     font-weight: normal;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
 
     @include mobile {
+      font-size: 16px;
+      letter-spacing: 0.64px;
     }
   }
 
@@ -71,29 +77,63 @@
   }
 
   &__text1 {
+    max-width: 500px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+    margin: 0 auto;
+    padding-top: 65px;
+    padding-bottom: 60px;
+
+
       @include mobile {
+        width: 100%;
+        padding-bottom: 30px;
         padding-top: 40px;
         font-size: 12px;
         letter-spacing: 0.96px;
-        line-height: 24px;
       }
     }
 
+    &__icon {
+      width: 24px;
+      margin: auto 0;
+      padding-left: 44px;
+      position: relative;
+      z-index: 1;
+      color: #fff;
+    }
+
   &__button {
-    display:block;
-    width: 295px;
+    display: inline;
+	align-items: center;
+    width: 100%;
+    max-width: 295px;
     height: 60px;
     border-radius: 4%;
     color: #fff;
-    background: #C2504F;
     text-align:center;
+    background: #C2504F;
     line-height: 60px;
     margin: 0 auto;
   }
 
+
   &__box1 {
+    display: flex;
+	align-items: center;
     padding-top: 30px;
+  position: relative;
+  z-index: 2;
   }
+  }
+
+  .material-icons {
+    position: absolute;
+    padding-left: 44px;
+    text-align:center;
+    margin: auto 0;
+    top: calc(60% - 0.1em);
   }
 
 </style>

@@ -1,4 +1,4 @@
-# nuxtjs_kadai202007
+# nuxtjs_LecCafe_mentoring_LP
 
 ## Build Setup
 

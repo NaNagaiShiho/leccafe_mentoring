@@ -3,7 +3,7 @@
       <div class="c-point__container">
       <div class="c-point__title">
           <p>LecCafeメンタリングの<br>
-          ３つのポイント</p>
+          <span class="c-point__3">３</span>つのポイント</p>
       </div>
       <div class="c-point__box">
         <div class="c-point__box1">
@@ -70,77 +70,109 @@
    background: #F7F7F7;
    font-family: YuGothic, "Yu Gothic", sans-serif;
      width: 100%;
-     padding-bottom: 100px;
+     padding: 120px 0 170px;
      @include mobile {
      padding: 30px 60px 40px;
      }
 
-     &__title {
+     &__container {
+       max-width: 994px;
+       margin: 0 auto;
+
        @include mobile {
-         font-size: 20px;
+         max-width: 100%;
+       }
+     }
+
+     &__title {
+         font-size: 30px;
          letter-spacing: 0.1em;
-         line-height: 36px;
+         line-height: 60px;
          text-align: center;
          font-weight: bold;
-       }
+         padding-bottom: 100px;
+
+         @include mobile {
+           font-size: 20px;
+           line-height: 36px;
+           padding-bottom: 0;
+         }
      }
 
      &__menu {
-       @include mobile {
           display: flex;
           align-items: flex-end;
+
+          @include mobile {
           width: 100%;
-       }
+          }
      }
 
      &__number {
-       @include mobile {
-         font-size: 48px;
+       font-size: 48px;
          letter-spacing: 0.04em;
          font-weight: bolder; 
          font-family: Alternate Gothic ATF;
          color: #C2504F;
        }
-     }
 
     &__border {
-      @include mobile {
-        width: 100%;
+        width: 255px;
         height: 2px;
         background: #7E7E7E;
         margin: 0 0 30px;
-      }
+
+        @include mobile {
+          width: 100%;
+        }
     }
 
     &__point {
-      @include mobile {
         margin:0 0 0 auto;
         padding-bottom: 10px;
         font-size: 20px;
         font-weight: bolder; 
         letter-spacing: 0.1em;
         color: #C2504F;
-      }
+      
     }
 
     &__text {
-      @include mobile {
-        font-size: 12px;
+      font-size: 14px;
         letter-spacing: 0.08px;
         line-height: 24px;
+
+      @include mobile {
+        font-size: 12px;
       }
     }
 
     &__box {
+      display: flex;
+	    justify-content: space-between;
+
       @include mobile {
         padding-top: 30px;
+        display: block;
       }
     }
     
     &__box1 {
+      width: 255px;
+
       @include mobile {
+        width: 100%;
         padding: 20px 0;
     }
+   }
+
+   &__3 {
+     font-size: 60px;
+     color: #C2504F;
+     
+     @include mobile {
+       font-size: 30px;
+     }
    }
  }
  </style>

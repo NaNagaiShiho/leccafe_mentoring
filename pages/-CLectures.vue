@@ -69,55 +69,84 @@
 
 .c-lectures {
   &__container {
+    max-width: 994px;
+       margin: 0 auto;
+       padding-bottom: 200px;
+
     @include mobile {
     padding:40px 4% 60px;
     }
   }
 &__title {
-    font-size: 24px;
+    font-size: 30px;
     text-align: center;
     color:#505050;
     font-weight: bold;
-    letter-spacing: 2.4px;
+    letter-spacing: 0.1em;
+    padding: 120px 0 60px;
 
     @include mobile {
+      font-size: 24px;
+      letter-spacing: 2.4px;
+      padding: 30px 0 40px;
     }
   }
 
   &__text {
-    font-size: 16px;
+    font-size: 25px;
     color: #C2504F;
     font-family:Alternate Gothic ATF;
     font-weight: normal;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
 
     @include mobile {
+      font-size: 16px;
+      letter-spacing: 0.64px;
     }
   }
 
   &__box {
-    padding: 20px 28px;
+    display: flex;
+	  justify-content: space-between;
+
+      @include mobile {
+        display: block;
+        padding: 20px 28px;
+      }
   }
 
    &__box1 {
+     width: 280px;
+     
+     @include mobile {
+       width: 100%;
      padding: 20px 0;
+     }
    }
 
   &__menu {
-    display: flex;
+    display: block;
     align-items: center;
     padding-bottom: 30px;
     width: 100%;
+
+    @include mobile {
+      display: flex;
+    }
   }
 
   &__sub {
     font-size: 20px;
     color: #505050;
-    text-align: left;
+    text-align: center;
     max-width: 100%;
     bottom: 0;
     letter-spacing: 0.01em;
     line-height: 32px;
+
+    @include mobile {
+      text-align: left;
+    }
   }
 
   &__sub::first-letter {
@@ -127,7 +156,11 @@
 
   &__icon {
     width: 21%;
-    margin:0 0 0 auto;
+    margin:0 auto;
+
+    @include mobile {
+      margin:0 0 0 auto;
+    }
   }
 
 

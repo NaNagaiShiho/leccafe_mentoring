@@ -6,16 +6,14 @@
           <p class="c-flow__text">Flow</p>
       </div>
       <div class="c-flow__border"></div>
-      <div class="c-flow__box">
-        <div class="c-flow__flow" >
+      <div class="c-flow__box00">
+        <div class="c-flow__flow">
           <div class="c-flow__top">
-            <div class="c-flow__box1">
               <div class="c-flow__icon">
                 <img class="c-flow__meeting"
-                src="@/assets/image/meeting@2x.png"
+                src="@/assets/image/step1@2x.png"
                 alt="相談アイコン">
                 </div>
-            </div>
             <div class="c-flow__box2">
             <div class="c-flow__step">
               STEP1
@@ -28,18 +26,16 @@
           <div class="c-flow__text1">
             この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。
           </div>
-        </div>
       </div>
+      <div class="c-flow__border1"></div>
       <div class="c-flow__box">
         <div class="c-flow__flow" >
           <div class="c-flow__top">
-            <div class="c-flow__box1">
               <div class="c-flow__icon">
                 <img class="c-flow__meeting"
-                src="@/assets/image/meeting@2x.png"
+                src="@/assets/image/step2@2x.png"
                 alt="相談アイコン">
                 </div>
-            </div>
             <div class="c-flow__box2">
             <div class="c-flow__step">
               STEP2
@@ -54,16 +50,15 @@
           </div>
         </div>
       </div>
+      <div class="c-flow__border1"></div>
       <div class="c-flow__box">
         <div class="c-flow__flow" >
           <div class="c-flow__top">
-            <div class="c-flow__box1">
               <div class="c-flow__icon">
                 <img class="c-flow__meeting"
-                src="@/assets/image/meeting@2x.png"
+                src="@/assets/image/step3@2x.png"
                 alt="相談アイコン">
                 </div>
-            </div>
             <div class="c-flow__box2">
             <div class="c-flow__step">
               STEP3
@@ -77,6 +72,8 @@
             この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。
           </div>
         </div>
+      </div>
+      <div class="c-flow__border1"></div>
       </div>
       </div>
  </section>
@@ -92,15 +89,137 @@
 
 .c-flow {
   &__container {
+    padding: 120px 0 150px;
+    max-width: 994px;
+    margin: 0 auto;
     @include mobile {
     padding:40px 20px 60px;
+    max-width: 100%;
+    }
+  }
+
+&__title {
+    font-size: 30px;
+    text-align: center;
+    color:#505050;
+    font-weight: bold;
+    letter-spacing: 2.4px;
+    padding-bottom: 40px;
+
+    @include mobile {
+      font-size: 24px;
+    }
+  }
+
+  &__text {
+    font-size: 25px;
+    color: #C2504F;
+    font-family:Alternate Gothic ATF;
+    font-weight: normal;
+    letter-spacing: 0.64px;
+
+    @include mobile {
+      font-size: 16px;
+    }
+  }
+
+  &__flow {
+    position: relative;
+
+    @include mobile {
+      padding: 0 20px;
+    }
+  }
+
+  &__top {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  &__icon {
+    position: relative;
+     z-index: 9999;
+    width: 130px;
+    
+
+    @include mobile {
+    width: 60px;
+    }
+  }
+
+  &__box2 {
+    padding-left: 57px;
+    position: relative;
+
+    @include mobile {
+      float: left;
+      padding-left: 20px;
+      text-align: left;
+    }
+  }
+
+  &__step {
+    font-family: Alternate Gothic ATF;
+    color: rgba(194,80,79,0.6);
+    font-size: 20px;
+    letter-spacing: 0.08em;
+    padding-bottom: 15px;
+
+    @include mobile {
+      font-size: 14px;
+      letter-spacing: 1.12px;
+      padding-bottom: 6px;
+    }
+  }
+
+  &__point {
+    font-weight: bold;
+    color: rgba(194,80,79);
+    font-size: 30px;
+    letter-spacing: 0.08em;
+
+    @include mobile {
+      font-size: 16px;
+      letter-spacing: 1.28px;
+    }
+  }
+
+  &__text1 {
+    font-size: 16px;
+    max-width: 794px;
+    margin: 0 0 0 auto;
+    letter-spacing: 0.03em;
+      line-height: 30px;
+    @include mobile {
+      font-size: 12px;
+      letter-spacing: 0.96px;
+      width: 100%;
+      line-height: 24px;
     }
   }
 
   &__border {
-    @include mobile {
-      margin-left: 47px;
-      margin-top: 55px;
+    position: relative;
+  }
+
+
+  &__box00 {
+    position: relative;
+  }
+
+  &__box00::before {
+    z-index: 1;
+    position: absolute;
+    content: "";
+      width: 8px;
+      height: 100%;
+      background: #CC706F;
+      margin-left: 3.8em;
+
+      @include mobile {
+      margin-left: 3em;
       position: absolute;
       width: 6px;
       height: 100%;
@@ -109,85 +228,24 @@
   }
 
 
-&__title {
-    font-size: 24px;
-    text-align: center;
-    color:#505050;
-    font-weight: bold;
-    letter-spacing: 2.4px;
+  &__pcbox {
+    display: block;
 
     @include mobile {
+      display: none;
     }
   }
 
-  &__text {
-    font-size: 16px;
-    color: #C2504F;
-    font-family:Alternate Gothic ATF;
-    font-weight: normal;
-    letter-spacing: 0.64px;
+  &__border1 {
+    z-index: 20;
+    width: 797px;
+    height: 2px;
+    background: rgb(80,80,80,0.5);
+    margin: 45px 0 50px auto;
+
 
     @include mobile {
-    }
-  }
-
-  &__flow {
-    @include mobile {
-      padding: 40px 20px;
-    }
-  }
-
-  &__top {
-    display: flex;
-    padding-bottom: 20px;
-  }
-
-  &__box1 {
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background: rgba(194,80,79);
-    text-align:center;
-    line-height: 60px;
-  }
-
-  &__icon {
-    width: 13%;
-    position: absolute;
-    padding-left: 10px;
-    padding-top: 8px;
-  }
-
-  &__box2 {
-    @include mobile {
-      padding-left: 20px;
-    }
-  }
-
-  &__step {
-    font-family: Alternate Gothic ATF;
-    @include mobile {
-      font-size: 14px;
-      color: rgba(194,80,79,0.6);
-      letter-spacing: 1.12px;
-    }
-  }
-
-  &__point {
-    font-weight: bold;
-    @include mobile {
-      ont-size: 16px;
-      color: rgba(194,80,79);
-      letter-spacing: 1.28px;
-    }
-  }
-
-  &__text1 {
-    @include mobile {
-      font-size: 12px;
-      letter-spacing: 0.96px;
-      line-height: 24px;
+      display: none;
     }
   }
 }
