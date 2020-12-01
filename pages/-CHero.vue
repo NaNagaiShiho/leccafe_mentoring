@@ -8,10 +8,11 @@
             学べるWeb制作講座です。
           </div>
       </div>
+      <div class="c-hero__box1">
       <div class="c-hero__sec1">
         <div class="c-hero__box">
           <img class="c-hero__hukidashi"
-          src="@/assets/image/hukidashi@2x.png"
+          src="@/assets/image/hukidasi_sp@2x.png"
           alt="吹き出し">
           <img class="c-hero__hukidashi_pc"
           src="@/assets/image/hukidasi_pc@2x.png"
@@ -38,11 +39,14 @@
           src="@/assets/image/man@2x.png"
           alt="人">
      </div>
+     </div>
   </section>
 </template>
 
 <script>
+import Logo from '../components/Logo.vue'
   export default {
+  components: { Logo },
   }
 </script>
 
@@ -63,7 +67,7 @@
       margin: 0 auto;
       display: flex;
       align-items: center;
-      padding: 130PX 0;
+      padding: 130px 60px;
 
       @include mobile {
         max-width: 100%;
@@ -71,7 +75,17 @@
         display: block;
         padding: 0;
       }
-      
+    }
+
+    &__box1 {
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+
+      @include mobile {
+        display: block;
+        max-width: 500px;
+      }
     }
 
    &__title {
@@ -94,15 +108,10 @@
   &__sec1 {
     display: inline-flex;
 
-    @include mobile {
-      margin-left: 0;
-      text-align: left;
-       display: flex;
-    }
   }
 
   &__box {
-    padding-right: 36px;
+    margin-right: 36px;
     text-align: left;
   }
 
@@ -197,6 +206,8 @@
 
  &__icon_pc {
     width: 25%;
+    height: auto;
+    max-height: 218px;
     text-align: right;
     
     @include mobile {

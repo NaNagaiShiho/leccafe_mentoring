@@ -33,7 +33,7 @@
   &__container {
     padding: 120px 0 200px;
     @include mobile {
-    padding:40px 4% 60px;
+    padding:40px 20px 60px;
     }
   }
 &__title {
@@ -88,10 +88,9 @@
 
       @include mobile {
         width: 100%;
-        padding-bottom: 30px;
-        padding-top: 40px;
         font-size: 12px;
         letter-spacing: 0.96px;
+        padding: 40px 10% 30px;
       }
     }
 

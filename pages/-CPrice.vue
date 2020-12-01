@@ -49,7 +49,7 @@
   &__container {
     padding: 120px 0 170px;
     @include mobile {
-    padding:40px 20px 60px;
+    padding:40px 10% 60px;
     }
   }
 &__title {
@@ -188,6 +188,7 @@
        padding: 0 10px;
        letter-spacing: 0.96px;
        width: 100%;
+       max-width: 600px;
      }
    }
 

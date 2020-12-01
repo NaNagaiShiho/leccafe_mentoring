@@ -22,7 +22,7 @@
       </div>
       </div>
 
-      <div class="c-point__box1">
+      <div class="c-point__box2">
       <div class="c-point__menu">
         <div class="c-point__number">
           02
@@ -77,10 +77,12 @@
 
      &__container {
        max-width: 994px;
+       padding: 0 60px;
        margin: 0 auto;
 
        @include mobile {
          max-width: 100%;
+         padding: 0;
        }
      }
 
@@ -117,7 +119,7 @@
        }
 
     &__border {
-        width: 255px;
+        width: 100%;
         height: 2px;
         background: #7E7E7E;
         margin: 0 0 30px;
@@ -154,15 +156,27 @@
       @include mobile {
         padding-top: 30px;
         display: block;
+        max-width: 600px;
+        margin: 0 auto;
       }
     }
     
     &__box1 {
-      width: 255px;
+      width: 30%;
 
       @include mobile {
         width: 100%;
         padding: 20px 0;
+    }
+   }
+
+    &__box2 {
+      width: 30%;
+
+      @include mobile {
+        width: 100%;
+        padding: 20px 0;
+        margin: 0;
     }
    }
 

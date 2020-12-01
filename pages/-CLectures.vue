@@ -71,10 +71,11 @@
   &__container {
     max-width: 994px;
        margin: 0 auto;
+       padding: 0 40px;
        padding-bottom: 200px;
 
     @include mobile {
-    padding:40px 4% 60px;
+    padding:40px 20px 60px;
     }
   }
 &__title {
@@ -111,12 +112,12 @@
 
       @include mobile {
         display: block;
-        padding: 20px 28px;
+        padding: 20px 10%;
       }
   }
 
    &__box1 {
-     width: 280px;
+     width: 30%;
      
      @include mobile {
        width: 100%;
@@ -159,6 +160,8 @@
     margin:0 auto;
 
     @include mobile {
+      width: 60px;
+      height: 100%;
       margin:0 0 0 auto;
     }
   }

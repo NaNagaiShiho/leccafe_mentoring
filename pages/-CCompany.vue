@@ -35,7 +35,7 @@
   &__container {
     padding: 120px 0 150px;
     @include mobile {
-    padding:40px 4% 60px;
+    padding:40px 20px 60px;
     }
   }
 &__title {
@@ -102,6 +102,7 @@
 
       @include mobile {
         font-size: 12px;
+        padding: 0 10%;
       }
     }
   }

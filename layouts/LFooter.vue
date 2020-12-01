@@ -46,9 +46,11 @@
   max-width: 994px;
   margin: 0 auto;
   text-align: left;
+  padding: 0 60px;
 
   @include mobile {
     width: 100%;
+    padding: 0 10%;
   }
 }
 

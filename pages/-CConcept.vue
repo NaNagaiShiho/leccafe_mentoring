@@ -81,7 +81,7 @@
   height: 100%;
   text-align: center;
   font-family: YuGothic, "Yu Gothic", sans-serif;
-  padding: 110px 0 130px;
+  padding: 110px 60px 130px;
   background: #FBFBFB;
   @include mobile {
     padding: 40px 20px;
@@ -113,7 +113,7 @@
     width: 100%;
 
     @include mobile {
-      padding: 20px 28px;
+      padding: 20px 10%;
       display: block;
     }
   }
@@ -147,6 +147,11 @@
   &__icon {
     width: 22%;
     margin:0 0 0 auto;
+
+    @include mobile {
+      width: 60px;
+      height: 100%;
+    }
   }
 
 
@@ -166,6 +171,7 @@
 
     @include mobile {
     width: 100%;
+     max-width: 600px;
     }
   }
 
