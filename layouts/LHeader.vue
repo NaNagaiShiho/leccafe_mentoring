@@ -99,7 +99,7 @@ export default {}
         top: 0%;
         height: 100%;
         max-height: 600px;
-        width: auto;
+        width: 100%;
         margin: 0 auto;
         object-fit: cover;
 
