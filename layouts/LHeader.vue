@@ -3,10 +3,10 @@
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <div class="l-header__backsp">
         <img class="l-header__spfoto"
-        src="@/assets/image/sp-hero@2x.png"
+        src="@/assets/image/sp-hero.png"
         alt="sp背景">
         <img class="l-header__pcfoto"
-        src="@/assets/image/header_pc@2x.png"
+        src="@/assets/image/header_pc.png"
         alt="pc背景">
       </div>
         <div class="l-header__container">
