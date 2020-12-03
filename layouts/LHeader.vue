@@ -1,6 +1,26 @@
 <template>
   <header class="l-header">
+
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+      <head prefix="og: http://ogp.me/ns#"></head>
+      /* 共通 */
+    <meta property="og:url" content="サイトのURL" /> 
+    <meta property="og:title" content="メンタリングプログラム" /> 
+    <meta property="og:image" content="@/assets/image/ogp3.png" /> 
+    <meta property="og:description" content="サイトのディスクリプション" /> 
+    /* twitter　　*/
+    <meta name="twitter:card" content="カード種類" /> 
+    <meta name="twitter:site" content="@ユーザー名" /> 
+    /* FaceBook */
+    <meta property="fb:app_id" content="AppID" />
+
+    <link rel="icon" type="image/x-icon" href="@/assets/image/favicon.png">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="@/assets/image/Apple-touchicon.png">
+
+
+
       <div class="l-header__backsp">
         <img class="l-header__spfoto"
         src="@/assets/image/sp-hero.png"
