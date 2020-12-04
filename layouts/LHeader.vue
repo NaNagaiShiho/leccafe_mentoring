@@ -9,7 +9,7 @@
       /* 共通 */
     <meta property="og:url" content="サイトのURL" /> 
     <meta property="og:title" content="メンタリングプログラム" /> 
-    <meta property="og:image" content="@/assets/image/ogp3.png" /> 
+    <meta property="og:image" content="http://leccafe_mentoring/assets/image/ogp3.png" /> 
     <meta property="og:description" content="サイトのディスクリプション" /> 
     /* twitter　　*/
     <meta name="twitter:card" content="カード種類" /> 
@@ -17,9 +17,9 @@
     /* FaceBook */
     <meta property="fb:app_id" content="AppID" />
 
-    <link rel="icon" type="image/x-icon" href="@/assets/image/favicon.png">
+    <link rel="icon" type="image/x-icon" href="http://leccafe_mentoring/assets/image/favicon.png">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="@/assets/image/Apple-touchicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://leccafe_mentoring/assets/image/Apple-touchicon.png">
 
     <meta name="description" content="LecCafeのメンタリングプログラムは短期的に、実戦形式の制作フローを学べるWeb制作講座です。">
 

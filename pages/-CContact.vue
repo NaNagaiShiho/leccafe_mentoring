@@ -10,7 +10,7 @@
           お気軽にお問い合わせください。お気軽にお問い合わせください。お気軽にお問い合わせください。お気軽にお問い合わせください。お気軽にお問い合わせください。お気軽にお問い合わせください。
         </div>
         <div class="c-contact__box1">
-          <a class="c-contact__button" href="~">
+          <a class="c-contact__button" href="https://chatbox-inc.com/contact">
             お問い合わせ
             <i class="material-icons">arrow_forward_ios</i>
           </a>
