@@ -17,10 +17,6 @@
     /* FaceBook */
     <meta property="fb:app_id" content="AppID" />
 
-    <link rel="ishortcut icon" href="http://Users/shiho/leccafe_mentoring/assets/image/favicon.ico">
-
-    <link rel="apple-touch-icon" sizes="180x180" href="http://www.leccafe_mentoring.com/assets/image/Apple-touchicon.png">
-
     <meta name="description" content="LecCafeのメンタリングプログラムは短期的に、実戦形式の制作フローを学べるWeb制作講座です。">
 
       <div class="l-header__backsp">
