@@ -1,6 +1,8 @@
 <template>
   <header class="l-header">
 
+      <title>メンターのいるweb制作講座｜株式会社chatbox</title>
+
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
       <head prefix="og: http://ogp.me/ns#"></head>
@@ -19,7 +21,7 @@
 
     <link rel="apple-touch-icon" sizes="180x180" href="@/assets/image/Apple-touchicon.png">
 
-
+    <meta name="description" content="LecCafeのメンタリングプログラムは短期的に、実戦形式の制作フローを学べるWeb制作講座です。">
 
       <div class="l-header__backsp">
         <img class="l-header__spfoto"
@@ -33,10 +35,10 @@
             <div class="l-header__box">
                 <div class="l-header__box1">
                 <div class="l-header__border"></div>
-                <div class="l-header__title">
+                <h1 class="l-header__title">
                     メンタリング<br>
                     プログラム
-                </div>
+                </h1>
                 <div class="l-header__border"></div>
                 <div class="l-header__subtitle">
                     LecCafe Presents
@@ -259,7 +261,7 @@ export default {}
         @include mobile {
             width: 100%;
             height: 100%;
-           margin: 60px auto; 
+           margin: 60px auto 0; 
            max-width: 335px;
         }
     }

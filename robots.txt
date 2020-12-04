@@ -1,5 +1,0 @@
-User-Agent:*
-
-Disallow:/example/
-
-Sitemap:https://cranky-mccarthy-888d5f.netlify.app/sitemap

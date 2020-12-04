@@ -2,11 +2,11 @@
   <section class="c-hero">
      <div class="c-hero__box0">
       <div class="c-hero__container">
-          <div class="c-hero__title">
+          <h1 class="c-hero__title">
             LecCafeのメンタリングプログラムは<br>
             短期的に、実戦形式の制作フローを<br>
             学べるWeb制作講座です。
-          </div>
+          </h1>
       </div>
       <div class="c-hero__box1">
       <div class="c-hero__sec1">

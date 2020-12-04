@@ -1,19 +1,19 @@
 <template>
   <section class="c-point">
       <div class="c-point__container">
-      <div class="c-point__title">
+      <h1 class="c-point__title">
           <p>LecCafeメンタリングの<br>
           <span class="c-point__3">３</span>つのポイント</p>
-      </div>
+      </h1>
       <div class="c-point__box">
         <div class="c-point__box1">
       <div class="c-point__menu">
         <div class="c-point__number">
           01
         </div>
-        <div class="c-point__point">
+        <h2 class="c-point__point">
           高品質
-        </div>
+        </h2>
       </div>
       <div class="c-point__border">
       </div>
@@ -27,9 +27,9 @@
         <div class="c-point__number">
           02
         </div>
-        <div class="c-point__point">
+        <h2 class="c-point__point">
           低価格
-        </div>
+        </h2>
       </div>
       <div class="c-point__border">
       </div>
@@ -43,9 +43,9 @@
         <div class="c-point__number">
           03
         </div>
-        <div class="c-point__point">
+        <h2 class="c-point__point">
           実践的
-        </div>
+        </h2>
       </div>
       <div class="c-point__border">
       </div>

@@ -8,10 +8,10 @@
       <div class="c-lectures__box">
         <div class="c-lectures__box1">
       <div class="c-lectures__menu">
-        <div class="c-lectures__sub">
+        <h1 class="c-lectures__sub">
           Nuxt.jsで作る<br>
           Webサイト制作
-        </div>
+        </h1>
         <div class="c-lectures__icon">
           <img class="c-lectures__blackicon"
           src="@/assets/image/nuxt@2x.png"
@@ -24,10 +24,10 @@
       </div>
       <div class="c-lectures__box1">
       <div class="c-lectures__menu">
-        <div class="c-lectures__sub">
+        <h1 class="c-lectures__sub">
           Nuxt.jsで作る<br>
           GitHubアプリケーション
-        </div>
+        </h1>
         <div class="c-lectures__icon">
           <img class="c-lectures__blackicon"
           src="@/assets/image/GitHub@2x.png"
@@ -40,10 +40,10 @@
       </div>
       <div class="c-lectures__box1">
       <div class="c-lectures__menu">
-        <div class="c-lectures__sub">
+        <h1 class="c-lectures__sub">
           Firebaseで作る<br>
           チャットアプリ
-        </div>
+        </h1>
         <div class="c-lectures__icon">
           <img class="c-lectures__blackicon"
           src="@/assets/image/Firebase@2x.png"

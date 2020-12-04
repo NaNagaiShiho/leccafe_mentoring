@@ -1,10 +1,10 @@
 <template>
   <section class="c-concept">
     <div class="c-concept__container">
-      <div class="c-concept__title">
+      <h1 class="c-concept__title">
         LecCafeの<br>
         メンタリングプログラムでは！
-      </div>
+      </h1>
       <div class="c-concept__box">
         <div class="c-concept__box1">
       <div class="c-concept__menu">
@@ -54,9 +54,9 @@
       </div>
       <div class="c-concept__red">
         <div class="c-concept__box2">
-          <div class="c-concept__title2">
+          <h1 class="c-concept__title2">
             技術豊富なWeb制作会社が運営
-          </div>
+          </h1>
           <div class="c-concept__border">
           </div>
           <div class="c-concept__text2">
