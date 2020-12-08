@@ -114,7 +114,7 @@
        font-size: 48px;
          letter-spacing: 0.04em;
          font-weight: bolder; 
-         font-family: Alternate Gothic ATF;
+         font-family: 'Barlow Condensed', sans-serif;
          color: #C2504F;
        }
 

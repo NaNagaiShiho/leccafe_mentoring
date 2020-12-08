@@ -5,18 +5,6 @@
 
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-      <head prefix="og: http://ogp.me/ns#"></head>
-      /* 共通 */
-    <meta property="og:url" content="サイトのURL" /> 
-    <meta property="og:title" content="メンタリングプログラム" /> 
-    <meta property="og:image" content="http://www.leccafe_mentoring.com/assets/image/ogp3.png" /> 
-    <meta property="og:description" content="サイトのディスクリプション" /> 
-    /* twitter　　*/
-    <meta name="twitter:card" content="カード種類" /> 
-    <meta name="twitter:site" content="@ユーザー名" /> 
-    /* FaceBook */
-    <meta property="fb:app_id" content="AppID" />
-
     <meta name="description" content="LecCafeのメンタリングプログラムは短期的に、実戦形式の制作フローを学べるWeb制作講座です。">
 
       <div class="l-header__backsp">
@@ -164,8 +152,7 @@ export default {}
     &__subtitle {
         font-size: 24px;
         color: #fff;
-        font-family: Alternate Gothic ATF;
-        font-weight: lighter;
+        font-family: 'Barlow Condensed', sans-serif;
         letter-spacing: 0.1em;
         padding-top: 30px;
 

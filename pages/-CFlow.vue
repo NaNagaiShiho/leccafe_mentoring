@@ -110,7 +110,7 @@
   &__text {
     font-size: 25px;
     color: #C2504F;
-    font-family:Alternate Gothic ATF;
+    font-family: 'Barlow Condensed', sans-serif;
     font-weight: normal;
     letter-spacing: 0.64px;
     @include mobile {
@@ -153,7 +153,7 @@
     }
   }
   &__step {
-    font-family: Alternate Gothic ATF;
+    font-family: 'Barlow Condensed', sans-serif;
     color: rgba(194,80,79,0.6);
     font-size: 20px;
     letter-spacing: 0.08em;

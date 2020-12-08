@@ -71,8 +71,7 @@
     color: #C2504F;
     font-weight: normal;
     letter-spacing: 0.64px;
-    font-family:Alternate Gothic ATF;
-
+    font-family: 'Barlow Condensed', sans-serif;
     @include mobile {
       font-size: 16px;
     }
@@ -194,7 +193,7 @@
 
    &__1 {
      font-size: 60px;
-    font-family: Alternate Gothic ATF;
+    font-family: 'Barlow Condensed', sans-serif;
      @include mobile {
        font-size: 46px;
    }
@@ -202,7 +201,7 @@
 
 &__yen {
   font-size: 40px;
-  font-family: Alternate Gothic ATF;
+  font-family: 'Barlow Condensed', sans-serif;
   @include mobile {
        font-size: 30px;
 }
