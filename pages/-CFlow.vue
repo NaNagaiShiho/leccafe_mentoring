@@ -155,7 +155,7 @@
   }
   &__step {
     font-family: 'Barlow Condensed', sans-serif;
-    color: rgba(194,80,79,0.6);
+    color: #be4e4d;
     font-size: 20px;
     letter-spacing: 0.08em;
     padding-bottom: 15px;
