@@ -30,8 +30,7 @@
 <style lang="scss" scoped>
 @import "~assets/scss/mixins.scss";
 .c-company {
-  background: #F7F7F7;
-
+   background: rgb(249,249,249,0.9);
   &__container {
     padding: 120px 0 150px;
     @include mobile {

@@ -68,6 +68,8 @@
 @import "~assets/scss/mixins.scss";
 
 .c-lectures {
+  background: #ffffff;
+
   &__container {
     max-width: 994px;
        margin: 0 auto;

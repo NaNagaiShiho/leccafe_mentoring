@@ -87,6 +87,7 @@
 <style lang="scss" scoped>
 @import "~assets/scss/mixins.scss";
 .c-flow {
+   background: rgb(249,249,249,0.9);
   &__container {
     padding: 120px 0 150px;
     max-width: 994px;

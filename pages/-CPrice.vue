@@ -45,6 +45,7 @@
 
 .c-price {
   font-family: YuGothic, "Yu Gothic", sans-serif;
+  background: #ffffff;
 
   &__container {
     padding: 120px 0 170px;

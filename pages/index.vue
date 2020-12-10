@@ -39,11 +39,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.p-index {
-  &__item {
-    &:nth-child(odd) {
-      background-color: #faf7f7;
-    }
-  }
-}
+
 </style>

@@ -82,7 +82,7 @@
   text-align: center;
   font-family: YuGothic, "Yu Gothic", sans-serif;
   padding: 110px 60px 130px;
-  background: #FBFBFB;
+  background-color: #ffffff;
   @include mobile {
     padding: 40px 20px;
   }

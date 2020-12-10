@@ -59,7 +59,7 @@ import Logo from '../components/Logo.vue'
     width: 100%;
     text-align: center;
     font-family: YuGothic, "Yu Gothic", sans-serif;
-    background: #F7F7F7;
+    background: rgb(249,249,249,0.9);
 
     &__box0 {
       height: 100%;

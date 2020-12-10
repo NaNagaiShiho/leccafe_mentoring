@@ -10,7 +10,7 @@
         URLが間違っているか、ページが存在しません
       </p>
        <div class="p-404__box1">
-          <a class="p-404__button" href="https://chatbox-inc.com/contact">
+          <a class="p-404__button" href="https://cranky-mccarthy-888d5f.netlify.app/">
             TOPページへ戻る
             <i class="material-icons">arrow_forward_ios</i>
           </a>

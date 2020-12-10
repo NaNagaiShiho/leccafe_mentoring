@@ -28,7 +28,7 @@
 <style lang="scss" scoped>
 @import "~assets/scss/mixins.scss";
 .c-contact {
-  background: #fff;
+  background: #ffffff;
 
   &__container {
     padding: 120px 0 200px;

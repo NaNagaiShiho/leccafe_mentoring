@@ -67,7 +67,7 @@
 <style lang="scss" scoped>
 @import "~assets/scss/mixins.scss";
  .c-point {
-   background: #F7F7F7;
+    background: rgb(249,249,249,0.9);
    font-family: YuGothic, "Yu Gothic", sans-serif;
      width: 100%;
      padding: 120px 0 170px;
