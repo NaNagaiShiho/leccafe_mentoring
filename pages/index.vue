@@ -1,5 +1,6 @@
 <template>
   <div class="p-index">
+    <CHeader class="p-index__item" />
     <CHero class="p-index__item" />
     <CConcept class="p-index__item" />
     <CPoint class="p-index__item" />
@@ -12,6 +13,7 @@
 </template>
 
 <script>
+import CHeader from '@/pages/-CHeader'
 import CHero from '@/pages/-CHero'
 import CConcept from '@/pages/-CConcept'
 import CPoint from '@/pages/-CPoint'
@@ -23,6 +25,7 @@ import CContact from '@/pages/-CContact'
 
 export default {
   components: {
+    CHeader,
     CHero,
     CConcept,
     CPoint,

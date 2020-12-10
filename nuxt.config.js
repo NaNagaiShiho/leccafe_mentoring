@@ -64,7 +64,7 @@ export default {
       {
         hid: "og:image",
         property: "og:image",
-        content: "https://Users/shiho/leccafe_mentoring/assets/image/OGP/ogp.png"
+        content: "https://Users/shiho/leccafe_mentoring/staticogp.png"
       },
       // Twitter Card
       { name: "twitter:card", content: "summary_large_image" },
@@ -85,8 +85,11 @@ export default {
     ],
     link: [
       { rel: 'stylesheet', href: "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" },
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'apple-touch-icon',  type: 'image/png', href: '/Apple-touchicon.png' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' }
     ]
+    
 
   },
   /*

@@ -3,17 +3,20 @@
     "name": "404",
     "path": "/404",
     "component": "/Users/shiho/leccafe_mentoring/pages/404.vue",
-    "chunkName": "pages/404"
+    "chunkName": "pages/404",
+    "_name": "_f19c75ea"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/shiho/leccafe_mentoring/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_b4eb3636"
   },
   {
     "name": "custom",
     "path": "*",
-    "component": "/Users/shiho/leccafe_mentoring/pages/404.vue"
+    "component": "/Users/shiho/leccafe_mentoring/pages/404.vue",
+    "_name": "_f19c75ea"
   }
 ]

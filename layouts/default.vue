@@ -1,6 +1,6 @@
 <template>
   <div>
-    <l-header />
+    <c-header />
     <main class="l-content">
       <nuxt />
     </main>
