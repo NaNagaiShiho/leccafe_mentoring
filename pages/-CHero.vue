@@ -12,22 +12,24 @@
       <div class="c-hero__sec1">
         <div class="c-hero__box">
           <img class="c-hero__hukidashi"
-          src="@/assets/image/hukidasi_sp@2x.png"
+          src="@/assets/image/hukidasi_sp.png"
           alt="吹き出し">
           <img class="c-hero__hukidashi_pc"
-          src="@/assets/image/hukidasi_pc@2x.png"
+          src="@/assets/image/hukidasi_pc.png"
           alt="吹き出し">
       </div>
       <div class="c-hero__box2">
         <div class="c-hero__q">
-          こんなお悩みありませんか…?
+          <p>こんなお悩みありませんか…?</p>
         </div>
-        <div class="c-hero__list">
+        <div class="c-hero__listbox">
+        <ul class="c-hero__list">
     <li class="c-hero__li">何から勉強したらいいのかわからない</li>
     <li class="c-hero__li">エラーがどうしても解決できずに挫折してしまいそう</li>
     <li class="c-hero__li">プログラミングがどのように実際のサービスに<br>活用されるのかが分からない…</li>
     <li class="c-hero__li">プログラミングがどのように実際のサービスに<br>活用されるのかが分からない…</li>
-</div>
+</ul>
+        </div>
       </div>
       </div>
       <div class="c-hero__box3">
@@ -122,7 +124,9 @@ import Logo from '../components/Logo.vue'
       display: block;
     width: 100%;
     min-height: 339px;
+    min-width: auto;
     max-width: 339px;
+    max-height: auto;
     opacity: 0.9;
     position: relative;
     }
@@ -131,7 +135,7 @@ import Logo from '../components/Logo.vue'
   &__hukidashi_pc {
     display: block;
     position: relative;
-    width: 627px;
+    width: 100%;
     height: 292px;
 
     @include mobile {
@@ -174,6 +178,13 @@ import Logo from '../components/Logo.vue'
       line-height: 150%;
     }
   }
+
+  &__li {
+	list-style-type: disc;/* リストの左側に黒丸 */
+	margin-left: 24px;/* リストの左側に余白 */
+	text-align: left;
+}
+
 
   &__box3 {
     max-width: 100%;

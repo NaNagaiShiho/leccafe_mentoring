@@ -64,7 +64,7 @@ export default {
       {
         hid: "og:image",
         property: "og:image",
-        content: "https://Users/shiho/leccafe_mentoring/staticogp.png"
+        content: "https://cranky-mccarthy-888d5f.netlify.app/static/ogp.png"
       },
       // Twitter Card
       { name: "twitter:card", content: "summary_large_image" },

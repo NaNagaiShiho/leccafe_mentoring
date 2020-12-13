@@ -87,7 +87,7 @@
 <style lang="scss" scoped>
 @import "~assets/scss/mixins.scss";
 .c-flow {
-   background: rgb(249,249,249,0.9);
+   background-color: rgb(249,249,249,0.9);
   &__container {
     padding: 120px 0 150px;
     max-width: 994px;
@@ -155,7 +155,7 @@
   }
   &__step {
     font-family: 'Barlow Condensed', sans-serif;
-    color: #be4e4d;
+    color: rgb(194,80,79,0.6);
     font-size: 20px;
     letter-spacing: 0.08em;
     padding-bottom: 15px;

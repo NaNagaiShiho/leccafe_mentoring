@@ -181,12 +181,12 @@ export default {}
     }
 
     &__icon {
-      width: 60px;
-      height: 100%;
+      width: auto;
+      height: 60px;
 
         @include mobile {
             width: 46px;
-            height: 100%;
+            height: auto;
         }  
     }
 
