@@ -92,7 +92,7 @@ export default {}
             position: absolute;
             z-index: 1;
             top: 0%;
-            width: 100%;
+            width: auto;
             height: 492px;
             object-fit: cover;
         }

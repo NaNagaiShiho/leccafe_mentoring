@@ -94,7 +94,7 @@
   &__last {
     font-size: 14px;
     padding-left: 20px;
-    font-family: Alternate Gothic ATF;
+    font-family: 'Barlow Condensed', sans-serif;
     color: #fff;
     letter-spacing: 0.08em;
     text-align: left;

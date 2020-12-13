@@ -212,6 +212,7 @@ import Logo from '../components/Logo.vue'
     @include mobile {
       width: 25%;
       min-width: 80px;
+      height: auto;
     }
  }
 
@@ -219,6 +220,7 @@ import Logo from '../components/Logo.vue'
     width: 25%;
     height: auto;
     max-height: 218px;
+    max-height: auto;
     text-align: right;
     
     @include mobile {
