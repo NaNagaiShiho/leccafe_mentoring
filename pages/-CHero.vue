@@ -15,7 +15,7 @@
           src="@/assets/image/hukidasi_sp.png"
           alt="吹き出し">
           <img class="c-hero__hukidashi_pc"
-          src="@/assets/image/hukidasi_pc.png"
+          src="@/assets/image/hukidashi_pc@2x.png"
           alt="吹き出し">
       </div>
       <div class="c-hero__box2">
@@ -135,7 +135,7 @@ import Logo from '../components/Logo.vue'
   &__hukidashi_pc {
     display: block;
     position: relative;
-    width: 100%;
+    width: 620px;
     height: 292px;
 
     @include mobile {

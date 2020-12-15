@@ -31,7 +31,7 @@
             <div class="c-header__box2">
                 <div class="c-header__mentoring">
                     <img class="c-header__icon"
-                     src="@/assets/image/talk_icon @2x.png"
+                     src="@/assets/image/talk_icon@2x 2.png"
                         alt="会話"/>
                         <div class="c-header__text">
                             Mentoring
